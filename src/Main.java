@@ -1,4 +1,6 @@
+import java.lang.reflect.Array;
 import java.lang.reflect.GenericArrayType;
+import java.util.ArrayList;
 import java.util.Objects;
 import java.util.Scanner;
 
@@ -27,6 +29,7 @@ public class Main {
     int  index2 = binarySearch(a1, "5", 0, a.length - 1);
     System.out.println(index);
     System.out.println(index2);
+
 
 }
 }
